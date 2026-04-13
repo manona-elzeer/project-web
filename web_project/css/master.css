@@ -1,0 +1,52 @@
+
+
+.container{
+  
+    display: flex;
+    width: 1170px;
+    margin: 50px auto 0px auto;
+    
+}
+
+.img{
+   
+    width: 250px;
+    height: 250px;
+}
+
+.part{
+    margin-left: 30px;
+}
+
+.name{
+    width: 250px;
+}
+
+hr{
+   
+    width: 90vw;
+    
+}
+@media(width:1024px){
+    .container{
+        width: 700px;
+    }
+    hr{
+        
+      width: 1500px;
+    
+    }
+   
+}
+@media(width:768px){
+   .container{
+    width: 468px;
+    
+}
+   hr{ width: 1500px;
+}
+
+      
+    
+   
+}
